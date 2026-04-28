@@ -1,0 +1,21 @@
+PS C:\Users\chris> python C:\Users\chris\Desktop\vaeron_loss_stream.py
+C:\Users\chris\Desktop\vaeron_loss_stream.py:28: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+  client = mqtt.Client(protocol=mqtt.MQTTv5)
+------------------------------------------------------------
+VAERON REAL-TIME LOSS MONITORING [TYPE 1]
+------------------------------------------------------------
+CYCLE 0 | TEMP: 941.98C | LOSS: 1,184.01 EUR/h
+CYCLE 1 | TEMP: 927.74C | LOSS: 4,303.46 EUR/h
+CYCLE 2 | TEMP: 901.79C | LOSS: 12,642.79 EUR/h
+CYCLE 3 | TEMP: 880.59C | LOSS: 27,984.97 EUR/h
+CYCLE 4 | TEMP: 920.95C | LOSS: 3,228.63 EUR/h
+CYCLE 5 | TEMP: 911.8C | LOSS: 660.71 EUR/h
+CYCLE 6 | TEMP: 926.86C | LOSS: 16,113.60 EUR/h
+CYCLE 7 | TEMP: 919.06C | LOSS: 8,929.37 EUR/h
+CYCLE 8 | TEMP: 931.49C | LOSS: 8,713.74 EUR/h
+CYCLE 9 | TEMP: 883.94C | LOSS: 16,358.02 EUR/h
+------------------------------------------------------------
+ANALYSIS COMPLETED. GRID STABILIZED.
+PS C:\Users\chris> python C:\Users\chris\Desktop\vaeron_loss_stream.py > C:\Users\chris\Desktop\vaeron_audit_log.txt
+C:\Users\chris\Desktop\vaeron_loss_stream.py:28: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+  client = mqtt.Client(protocol=mqtt.MQTTv5)
